@@ -3,4 +3,8 @@ CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.cpp
+SOURCES += \
+    ../../src/classes/animal.cpp
+
+HEADERS += \
+    ../../src/classes/animal.h

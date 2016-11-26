@@ -2,10 +2,12 @@
 #define ANIMAL_H
 
 
-class Animal
-{
-public:
-    Animal();
+class Animal {
+    public:
+        Animal();
+
+    private:
+        int age;
 };
 
 #endif // ANIMAL_H
