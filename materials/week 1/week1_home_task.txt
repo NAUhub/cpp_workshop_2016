@@ -1,0 +1,21 @@
+Task 1. Numbers notation
+Write a program that for given decimal number will shows its binary representation.
+Number should be readed from standard input, and binary representation shoud be written to standard output.
+
+Example:
+> Enter an number (decimal): 12 <Enter>
+> Binary representation of 12 is: 0b1010
+
+Tips: use a std::string to hold binary representation of the number;
+      use "divide by two" method to find binary representation of the number.
+
+
+Task 2. Fibonacci numbers
+Write a program that computes n-th element of Fibonacci series.
+Read 'n' from a standard input, and write a result for standard output.
+
+Example:
+> Enter position in Fibonacci series: 5 <Enter>
+> 5-th element of the series is: 5
+
+Tips: you can use either recursion or loop to find answer.
