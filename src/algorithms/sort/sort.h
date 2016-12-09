@@ -4,6 +4,7 @@
 #include <vector>
 #include "bubblesorter.h"
 #include "shakesorter.h"
+#include "mergesorter.h"
 
 namespace Algorithms {
 namespace Sort {
