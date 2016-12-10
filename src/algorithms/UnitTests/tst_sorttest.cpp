@@ -3,7 +3,7 @@
 
 #include "sort.h"
 
-class SortTest : public QObject {
+/*class SortTest : public QObject {
     Q_OBJECT
 
     public:
@@ -227,3 +227,4 @@ void SortTest::mergeBUSortBenchmark() {
 
 QTEST_APPLESS_MAIN(SortTest)
 #include "tst_sorttest.moc"
+*/

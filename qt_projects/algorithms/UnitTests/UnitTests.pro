@@ -8,7 +8,8 @@ QT       += testlib
 
 QT       -= gui
 
-TARGET = tst_sorttest
+#TARGET = tst_sorttest
+TARGET =
 CONFIG   += testcase
 CONFIG   += console
 CONFIG   -= app_bundle

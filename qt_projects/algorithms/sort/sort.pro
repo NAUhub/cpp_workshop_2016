@@ -12,3 +12,5 @@ HEADERS += \
     ../../../src/algorithms/sort/shakesorter.h \
     ../../../src/algorithms/sort/mergesorter.h \
     ../../../src/algorithms/sort/bubblesorter.h
+
+INCLUDEPATH += ../../../src/algorithms/sort/

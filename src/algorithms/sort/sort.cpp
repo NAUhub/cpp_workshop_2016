@@ -32,5 +32,27 @@ namespace Sort {
         }
     }
 
+namespace Seredan {
+    void bubble_sort(std::vector<double> &data) {
+        double temp;
+        int last = data.size();
+        for (int j=0; j<data.size()-1; j++, last--) {
+            int len = 0;
+            while (len < last-1) {
+                if (data[len] > data[len+1]) {
+                    temp = data[len];
+                    data[len] = data[len+1];
+                    data[len+1] = temp;
+                }
+                len++;
+            }
+        }
+    }
+
+    void shake_sort (std::vector<double> &data) {
+
+    }
+} // namespace Seredan
+
 } // namespace Sort
 } // namespace Algorithms

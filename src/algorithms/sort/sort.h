@@ -8,15 +8,12 @@
 
 namespace Algorithms {
 namespace Sort {
+namespace Seredan {
 
     void bubble_sort(std::vector<double> &data);
     void shake_sort (std::vector<double> &data);
 
-    template <class Sorter>
-    void sort(std::vector<double> &data) {
-        Sorter::sort(data);
-    }
-
+} // namespace Seredan
 } // namespace Sort
 } // namespace Algorithms
 
